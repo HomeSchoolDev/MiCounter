@@ -1,0 +1,10 @@
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m: In function '-[Mail btnMail]':
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:16: error: 'MFMailComposeViewController' undeclared (first use in this function)
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:16: error: (Each undeclared identifier is reported only once
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:16: error: for each function it appears in.)
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:16: error: 'mailComposer' undeclared (first use in this function)
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m: At top level:
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:30: error: expected ')' before 'MFMailComposeViewController'
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:30: error: expected ')' before 'MFMailComposeResult'
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m: In function '-[Mail mailComposeController:didFinishWithResult:error:]':
+/Users/Derek/Dev/iPhone/MiCounter/Classes/Mail.m:34: error: 'MFMailComposeResultFailed' undeclared (first use in this function)

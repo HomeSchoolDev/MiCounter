@@ -1,0 +1,332 @@
+TMiCounter
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C4A38160000000000000132
+t1279932438
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0473C80000000000000071
+t1275360200
+s113
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C0473CB000000000004A930
+t1275360203
+s305456
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Button.png
+c000000004C4A6AB00000000000000EED
+t1279945392
+s3821
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.h
+c000000004C4A721300000000000001A4
+t1279947283
+s420
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m
+c000000004C4A72F80000000000000BE2
+t1279947512
+s3042
+i"Info.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib
+c000000004C4A73C90000000000007CAE
+t1279947721
+s31918
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.h
+c000000004C2143FE00000000000001F1
+t1277248510
+s497
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m
+c000000004C23FFFE0000000000000951
+t1277427710
+s2385
+i"MiCounterAppDelegate.h"
+i"MiCounterViewController.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.h
+c000000004C4A67840000000000000209
+t1279944580
+s521
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m
+c000000004C4A6EDB0000000000000A71
+t1279946459
+s2673
+i"MiCounterViewController.h"
+i"MiCounterAppDelegate.h"
+i"Info.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib
+c000000004C2141EA0000000000004E41
+t1277247978
+s20033
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib
+c000000004C4A6BAF00000000000082F5
+t1279945647
+s33525
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounter_Prefix.pch
+c000000004C2141EA00000000000000BB
+t1277247978
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Default.png
+c000000004B7B6C90000000000002B3BD
+t1266379920
+s177085
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Icon.png
+c000000004C321EDC00000000000026BA
+t1278353116
+s9914
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Minus button.png
+c000000004B7B60380000000000005104
+t1266376760
+s20740
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Twitter.png
+c000000004BAAEC500000000000002708
+t1269492816
+s9992
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/carbon.jpg
+c000000004B7B68AE000000000001194E
+t1266378926
+s72014
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/plusicon.png
+c000000004B6CB19A000000000000A4CF
+t1265414554
+s42191
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Window.png
+c000000004C2162840000000000001722
+t1277256324
+s5922
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app.dSYM
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Button.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Default.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Icon.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Info.nib
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Info.plist
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/MainWindow.nib
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/MiCounter
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/MiCounterViewController.nib
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Minus button.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/PkgInfo
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Twitter.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Window.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/carbon.jpg
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/eMail.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/plusicon.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/twitter copy.png
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/Info.o
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounter.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/eMail.png
+c000000004B6A5D2A0000000000006DEB
+t1265261866
+s28139
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m
+c000000004C21470C0000000000000185
+t1277249292
+s389
+i<UIKit/UIKit.h>
+i"MiCounterAppDelegate.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/twitter copy.png
+c000000004C2169560000000000002708
+t1277258070
+s9992
+
+N/var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-ejpkgfhfwegzbdbjoqodnarhxesj/MiCounter_Prefix.pch.gch
+t2
+s0
+
+NMiCounter-Info.plist
+c000000004C365762000000000000037B
+t1278629730
+s891
+
+CCompileC build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/Info.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MiCounter.build/Distribution-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib"
+r0
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib"
+r0
+
+CCpResource "build/Distribution-iphonesimulator/MiCounter.app/Minus button.png" "Resources/Minus button.png"
+r0
+
+CCpResource "build/Distribution-iphonesimulator/MiCounter.app/twitter copy.png" "twitter copy.png"
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/Button.png Button.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/Default.png Resources/Default.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/Icon.png Resources/Icon.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/Twitter.png Resources/Twitter.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/Window.png Window.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/carbon.jpg Resources/carbon.jpg
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/eMail.png eMail.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/MiCounter.app/plusicon.png Resources/plusicon.png
+r0
+
+CGenerateDSYMFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app.dSYM" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/MiCounter"
+r0
+
+CLd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/MiCounter" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app/Info.plist" MiCounter-Info.plist
+r0
+
+CProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-ejpkgfhfwegzbdbjoqodnarhxesj/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphonesimulator/MiCounter.app"
+r0
+

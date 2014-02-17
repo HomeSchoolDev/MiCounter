@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MiCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MiCounterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* MiCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MiCounterViewController.m */; };
+		65D2D55712569F0600CF3CF7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D2D55612569F0600CF3CF7 /* Default.png */; };
+		65F0B4B718A640E300424D8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65F0B4B618A640E300424D8E /* Default-568h@2x.png */; };
+		65F0B4B918A641CB00424D8E /* Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F0B4B818A641CB00424D8E /* Storyboard_iPhone.storyboard */; };
+		65F0B4BB18A641E300424D8E /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F0B4BA18A641E300424D8E /* Storyboard_iPad.storyboard */; };
+		65F0B4BE18A6421B00424D8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65F0B4BD18A6421B00424D8E /* Images.xcassets */; };
+		65F0B4C118A64A1F00424D8E /* MiCounterSaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4C018A64A1F00424D8E /* MiCounterSaveViewController.m */; };
+		65F0B4C418A6504F00424D8E /* SPAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4C318A6504F00424D8E /* SPAlertView.m */; };
+		65F0B4C718A6510500424D8E /* AMBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4C618A6510500424D8E /* AMBlurView.m */; };
+		65F0B4C918A6513100424D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F0B4C818A6513100424D8E /* QuartzCore.framework */; };
+		65F0B4CC18A6F06200424D8E /* MiCounterCountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4CB18A6F06200424D8E /* MiCounterCountsViewController.m */; };
+		65F0B4CF18A6FAB900424D8E /* MiCounterCountInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F0B4CE18A6FAB900424D8E /* MiCounterCountInfoViewController.m */; };
+		65F0B4D018A7119500424D8E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A39427121F012500E00202 /* MessageUI.framework */; };
+		65F0B4D218A711A200424D8E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F0B4D118A711A200424D8E /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MiCounterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MiCounterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCounterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* MiCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* MiCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* MiCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCounterViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MiCounter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounter_Prefix.pch; sourceTree = "<group>"; };
+		657D000712174E95005622EA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65A0B24B11D18C620039CA63 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		65A39427121F012500E00202 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		65D2D55612569F0600CF3CF7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		65DF7CC81213B74D0052CF43 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65F0B4B618A640E300424D8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		65F0B4B818A641CB00424D8E /* Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		65F0B4BA18A641E300424D8E /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		65F0B4BD18A6421B00424D8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MiCounter/Images.xcassets; sourceTree = "<group>"; };
+		65F0B4BF18A64A1F00424D8E /* MiCounterSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounterSaveViewController.h; sourceTree = "<group>"; };
+		65F0B4C018A64A1F00424D8E /* MiCounterSaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCounterSaveViewController.m; sourceTree = "<group>"; };
+		65F0B4C218A6504F00424D8E /* SPAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPAlertView.h; sourceTree = "<group>"; };
+		65F0B4C318A6504F00424D8E /* SPAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertView.m; sourceTree = "<group>"; };
+		65F0B4C518A6510500424D8E /* AMBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMBlurView.h; sourceTree = "<group>"; };
+		65F0B4C618A6510500424D8E /* AMBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMBlurView.m; sourceTree = "<group>"; };
+		65F0B4C818A6513100424D8E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		65F0B4CA18A6F06200424D8E /* MiCounterCountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounterCountsViewController.h; sourceTree = "<group>"; };
+		65F0B4CB18A6F06200424D8E /* MiCounterCountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCounterCountsViewController.m; sourceTree = "<group>"; };
+		65F0B4CD18A6FAB900424D8E /* MiCounterCountInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiCounterCountInfoViewController.h; sourceTree = "<group>"; };
+		65F0B4CE18A6FAB900424D8E /* MiCounterCountInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiCounterCountInfoViewController.m; sourceTree = "<group>"; };
+		65F0B4D118A711A200424D8E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8D1107310486CEB800E47090 /* MiCounter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MiCounter-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F0B4D218A711A200424D8E /* Social.framework in Frameworks */,
+				65F0B4D018A7119500424D8E /* MessageUI.framework in Frameworks */,
+				65F0B4C918A6513100424D8E /* QuartzCore.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MiCounterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MiCounterAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* MiCounterViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* MiCounterViewController.m */,
+				65F0B4BF18A64A1F00424D8E /* MiCounterSaveViewController.h */,
+				65F0B4C018A64A1F00424D8E /* MiCounterSaveViewController.m */,
+				65F0B4CA18A6F06200424D8E /* MiCounterCountsViewController.h */,
+				65F0B4CB18A6F06200424D8E /* MiCounterCountsViewController.m */,
+				65F0B4CD18A6FAB900424D8E /* MiCounterCountInfoViewController.h */,
+				65F0B4CE18A6FAB900424D8E /* MiCounterCountInfoViewController.m */,
+				65F0B4C518A6510500424D8E /* AMBlurView.h */,
+				65F0B4C618A6510500424D8E /* AMBlurView.m */,
+				65F0B4C218A6504F00424D8E /* SPAlertView.h */,
+				65F0B4C318A6504F00424D8E /* SPAlertView.m */,
+				65F0B4B818A641CB00424D8E /* Storyboard_iPhone.storyboard */,
+				65F0B4BA18A641E300424D8E /* Storyboard_iPad.storyboard */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* MiCounter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				65F0B4BC18A6420600424D8E /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MiCounter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65F0B4BD18A6421B00424D8E /* Images.xcassets */,
+				65F0B4B618A640E300424D8E /* Default-568h@2x.png */,
+				65D2D55612569F0600CF3CF7 /* Default.png */,
+				8D1107310486CEB800E47090 /* MiCounter-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65F0B4D118A711A200424D8E /* Social.framework */,
+				65F0B4C818A6513100424D8E /* QuartzCore.framework */,
+				657D000712174E95005622EA /* AudioToolbox.framework */,
+				65A0B24B11D18C620039CA63 /* iAd.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				65DF7CC81213B74D0052CF43 /* AVFoundation.framework */,
+				65A39427121F012500E00202 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65F0B4BC18A6420600424D8E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* MiCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MiCounter" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiCounter;
+			productName = MiCounter;
+			productReference = 1D6058910D05DD3D006BFB54 /* MiCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = K5MLJX3GA6;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MiCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* MiCounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F0B4B718A640E300424D8E /* Default-568h@2x.png in Resources */,
+				65F0B4BE18A6421B00424D8E /* Images.xcassets in Resources */,
+				65F0B4B918A641CB00424D8E /* Storyboard_iPhone.storyboard in Resources */,
+				65D2D55712569F0600CF3CF7 /* Default.png in Resources */,
+				65F0B4BB18A641E300424D8E /* Storyboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F0B4CC18A6F06200424D8E /* MiCounterCountsViewController.m in Sources */,
+				65F0B4C118A64A1F00424D8E /* MiCounterSaveViewController.m in Sources */,
+				65F0B4C718A6510500424D8E /* AMBlurView.m in Sources */,
+				65F0B4CF18A6FAB900424D8E /* MiCounterCountInfoViewController.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MiCounterAppDelegate.m in Sources */,
+				65F0B4C418A6504F00424D8E /* SPAlertView.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* MiCounterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MiCounter_Prefix.pch;
+				INFOPLIST_FILE = "MiCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MiCounter;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MiCounter_Prefix.pch;
+				INFOPLIST_FILE = "MiCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MiCounter;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874B00AF12DEBD6800A899FC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: deana maurer (K959Z5MNGG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: deana maurer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "C186FD0C-698C-4CB6-AB18-81FD94F50541";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A6C1536-8905-444E-B451-910A90B97C4D";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		874B00B012DEBD6800A899FC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MiCounter_Prefix.pch;
+				INFOPLIST_FILE = "MiCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MiCounter;
+				PROVISIONING_PROFILE = "08149088-1065-49EA-AD8B-C67E04203EEA";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: deana maurer (K959Z5MNGG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: deana maurer (K959Z5MNGG)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "C186FD0C-698C-4CB6-AB18-81FD94F50541";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C186FD0C-698C-4CB6-AB18-81FD94F50541";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MiCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				874B00B012DEBD6800A899FC /* Distribution */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MiCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				874B00AF12DEBD6800A899FC /* Distribution */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

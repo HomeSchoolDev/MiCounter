@@ -1,0 +1,240 @@
+TMiCounter
+v7
+r0
+t298941397.533629
+cCheck dependencies
+cProcessInfoPlistFile /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/Info.plist MiCounter-Info.plist
+cCompileXIB /Users/Derek/Desktop/MiCounter/MainWindow.xib
+cCompileXIB /Users/Derek/Desktop/MiCounter/MiCounterViewController.xib
+cProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o /Users/Derek/Desktop/MiCounter/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o /Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o /Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C1406B00000000000000132
+t1276380848
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.h
+c000000004C2143FE00000000000001F1
+t1277248510
+s497
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m
+c000000004C2141EA0000000000000A8E
+t1277247978
+s2702
+i"MiCounterAppDelegate.h"
+i"MiCounterViewController.h"
+
+N/Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.h
+c000000004C2142140000000000000149
+t1277248020
+s329
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m
+c000000004C21423A0000000000000608
+t1277248058
+s1544
+i"MiCounterViewController.h"
+
+N/Users/Derek/Desktop/MiCounter/MainWindow.xib
+c000000004C2141EA0000000000004E41
+t1277247978
+s20033
+
+N/Users/Derek/Desktop/MiCounter/MiCounterViewController.xib
+c000000004C2141EA0000000000001A4D
+t1277247978
+s6733
+
+N/Users/Derek/Desktop/MiCounter/MiCounter_Prefix.pch
+c000000004C2141EA00000000000000BB
+t1277247978
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app
+t2
+s0
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app.dSYM
+t2
+s0
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/Info.plist
+t1277248595
+s599
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MainWindow.nib
+t1277248596
+s1127
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MiCounter
+t2
+s0
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MiCounterViewController.nib
+t1277248595
+s795
+
+N/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/PkgInfo
+t1277248595
+s8
+
+N/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounter.LinkFileList
+c000000004C2144530000000000000185
+t1277248595
+s389
+
+N/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o
+t1277248597
+s47972
+
+N/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o
+t1277248597
+s35676
+
+N/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/Derek/Desktop/MiCounter/main.m
+c000000004C21445200000000000001D9
+t1277248594
+s473
+i<UIKit/UIKit.h>
+
+N/var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch.gch
+t1277248597
+s15232016
+
+NMiCounter-Info.plist
+c000000004C2141EA000000000000038D
+t1277247978
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298941395#298941395#0(0"0(0#1#0"8638024288#0"0#
+
+CCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o /Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298941397.377733
+e298941397.463710
+r1
+xCompileC
+xbuild/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o
+x/Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m298941397#298941397#0(0"0(0#0#61"/Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m8632606784#1893"    cd /Users/Derek/Desktop/MiCounter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-generated-files.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-own-target-headers.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-all-target-headers.hmap -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-project-headers.hmap -F/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator -I/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/include -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources/i386 -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch -c /Users/Derek/Desktop/MiCounter/Classes/MiCounterAppDelegate.m -o /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterAppDelegate.o0#
+
+CCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o /Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298941397.428766
+e298941397.533547
+r1
+xCompileC
+xbuild/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o
+x/Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m298941397#298941397#0(0"0(0#0#64"/Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m8615393920#1899"    cd /Users/Derek/Desktop/MiCounter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-generated-files.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-own-target-headers.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-all-target-headers.hmap -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-project-headers.hmap -F/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator -I/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/include -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources/i386 -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch -c /Users/Derek/Desktop/MiCounter/Classes/MiCounterViewController.m -o /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/MiCounterViewController.o0#
+
+CCompileC build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o /Users/Derek/Desktop/MiCounter/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298941397.376231
+e298941397.428455
+r0
+xCompileC
+xbuild/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o
+x/Users/Derek/Desktop/MiCounter/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Derek/Desktop/MiCounter/main.m: In function 'main':
+o/Users/Derek/Desktop/MiCounter/main.m:15: error: 'MiCounterAppDelegate' undeclared (first use in this function)
+o/Users/Derek/Desktop/MiCounter/main.m:15: error: (Each undeclared identifier is reported only once
+o/Users/Derek/Desktop/MiCounter/main.m:15: error: for each function it appears in.)
+o/Users/Derek/Desktop/MiCounter/main.m:15: error: 'appDelegate' undeclared (first use in this function)
+lSLF07#2@45"Compile /Users/Derek/Desktop/MiCounter/main.m298941397#298941397#0(456"/Users/Derek/Desktop/MiCounter/main.m: In function 'main':/Users/Derek/Desktop/MiCounter/main.m:15: error: 'MiCounterAppDelegate' undeclared (first use in this function)/Users/Derek/Desktop/MiCounter/main.m:15: error: (Each undeclared identifier is reported only once/Users/Derek/Desktop/MiCounter/main.m:15: error: for each function it appears in.)/Users/Derek/Desktop/MiCounter/main.m:15: error: 'appDelegate' undeclared (first use in this function)2(4@62"'MiCounterAppDelegate' undeclared (first use in this function)298941397#59#112#0(6@37"/Users/Derek/Desktop/MiCounter/main.m298941394#15#0#15#0#43"'*' undeclared (first use in this function)0(4@53"'appDelegate' undeclared (first use in this function)298941397#353#103#0(6@37"/Users/Derek/Desktop/MiCounter/main.m298941394#15#0#15#0#43"'*' undeclared (first use in this function)0(0#0#37"/Users/Derek/Desktop/MiCounter/main.m8617114720#1853"    cd /Users/Derek/Desktop/MiCounter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-generated-files.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-own-target-headers.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-all-target-headers.hmap -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-project-headers.hmap -F/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator -I/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/include -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources/i386 -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch -c /Users/Derek/Desktop/MiCounter/main.m -o /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/Objects-normal/i386/main.o1#
+
+CCompileXIB /Users/Derek/Desktop/MiCounter/MainWindow.xib
+s298941395.488392
+e298941396.055064
+r1
+xCompileXIB
+x/Users/Derek/Desktop/MiCounter/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib298941395#298941396#0(0"0(0#0#45"/Users/Derek/Desktop/MiCounter/MainWindow.xib8637488128#548"    cd /Users/Derek/Desktop/MiCounter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MainWindow.nib /Users/Derek/Desktop/MiCounter/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/Derek/Desktop/MiCounter/MiCounterViewController.xib
+s298941395.489813
+e298941396.002665
+r1
+xCompileXIB
+x/Users/Derek/Desktop/MiCounter/MiCounterViewController.xib
+lSLF07#2@38"CompileXIB MiCounterViewController.xib298941395#298941396#0(0"0(0#0#58"/Users/Derek/Desktop/MiCounter/MiCounterViewController.xib8598762432#574"    cd /Users/Derek/Desktop/MiCounter    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MiCounterViewController.nib /Users/Derek/Desktop/MiCounter/MiCounterViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app.dSYM /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MiCounter
+r0
+
+CLd /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/MiCounter normal i386
+r0
+
+CProcessInfoPlistFile /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/Info.plist MiCounter-Info.plist
+s298941395.480358
+e298941395.488295
+r1
+xProcessInfoPlistFile
+x/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/Info.plist
+xMiCounter-Info.plist
+lSLF07#2@28"Process MiCounter-Info.plist298941395#298941395#0(0"0(0#0#51"/Users/Derek/Desktop/MiCounter/MiCounter-Info.plist8631984032#461"    cd /Users/Derek/Desktop/MiCounter    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MiCounter-Info.plist -genpkginfo /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app/Info.plist0#
+
+CProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s298941396.055178
+e298941397.375993
+r1
+xProcessPCH
+x/var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch.gch
+xMiCounter_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile MiCounter_Prefix.pch298941396#298941397#0(0"0(0#0#51"/Users/Derek/Desktop/MiCounter/MiCounter_Prefix.pch8647906400#1751"    cd /Users/Derek/Desktop/MiCounter    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-generated-files.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-own-target-headers.hmap -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-all-target-headers.hmap -iquote /Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/MiCounter-project-headers.hmap -F/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator -I/Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/include -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources/i386 -I/Users/Derek/Desktop/MiCounter/build/MiCounter.build/Debug-iphonesimulator/MiCounter.build/DerivedSources -c /Users/Derek/Desktop/MiCounter/MiCounter_Prefix.pch -o /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-cbloheenkdzaseapakyzrlwyreme/MiCounter_Prefix.pch.gch0#
+
+CTouch /Users/Derek/Desktop/MiCounter/build/Debug-iphonesimulator/MiCounter.app
+r0
+

@@ -1,0 +1,674 @@
+TMiCounter
+v7
+r0
+t300323238.863900
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/MiCounter.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.plist" MiCounter-Info.plist
+cCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib"
+cCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib"
+cCpResource build/Distribution-iphoneos/MiCounter.app/carbon.jpg Resources/carbon.jpg
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Default.png" Resources/Default.png
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Icon.png" Resources/Icon.png
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Minus button.png" "Resources/Minus button.png"
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/plusicon.png" Resources/plusicon.png
+cCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib"
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Window.png" Window.png
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Button.png" Button.png
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/eMail.png" eMail.png
+cCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/twitter copy.png" "twitter copy.png"
+cProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/main.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterAppDelegate.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterViewController.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/Info.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/main.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter" normal armv6
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterAppDelegate.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterViewController.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/Info.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter" normal armv7
+cCreateUniversalBinary "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app.dSYM" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter"
+cProcessProductPackaging "/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision"
+cTouch "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent"
+cCodeSign "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+cValidate "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
+c000000004C0482160000000000000071
+t1275363862
+s113
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004C04821B0000000000080FB0
+t1275363867
+s528304
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Button.png
+c000000004C2167440000000000000D75
+t1277257540
+s3445
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.h
+c000000004C21520000000000000000E3
+t1277252096
+s227
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m
+c000000004C21521400000000000005C2
+t1277252116
+s1474
+i"Info.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib
+c000000004C216AFE00000000000065F2
+t1277258494
+s26098
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.h
+c000000004C2143FE00000000000001F1
+t1277248510
+s497
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m
+c000000004C23FFFE0000000000000951
+t1277427710
+s2385
+i"MiCounterAppDelegate.h"
+i"MiCounterViewController.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.h
+c000000004C2160640000000000000171
+t1277255780
+s369
+i<UIKit/UIKit.h>
+i<iAd/iAd.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m
+c000000004C21610A0000000000000598
+t1277255946
+s1432
+i"MiCounterViewController.h"
+i"MiCounterAppDelegate.h"
+i"Info.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib
+c000000004C2141EA0000000000004E41
+t1277247978
+s20033
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib
+c000000004C3655310000000000007602
+t1278629169
+s30210
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounter_Prefix.pch
+c000000004C2141EA00000000000000BB
+t1277247978
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Default.png
+c000000004B7B6C90000000000002B3BD
+t1266379920
+s177085
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Icon.png
+c000000004C321EDC00000000000026BA
+t1278353116
+s9914
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Minus button.png
+c000000004B7B60380000000000005104
+t1266376760
+s20740
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/carbon.jpg
+c000000004B7B68AE000000000001194E
+t1266378926
+s72014
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/plusicon.png
+c000000004B6CB19A000000000000A4CF
+t1265414554
+s42191
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Window.png
+c000000004C2162840000000000001722
+t1277256324
+s5922
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app
+t1278630438
+s714
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app.dSYM
+t1278630434
+s102
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Button.png
+t1278630431
+s3462
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Default.png
+t1278630431
+s230054
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Icon.png
+t1278630431
+s9914
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.nib
+t1278630431
+s2230
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.plist
+t1278630430
+s766
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MainWindow.nib
+t1278630430
+s1127
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter
+t1278630434
+s43920
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounterViewController.nib
+t1278630430
+s2818
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Minus button.png
+t1278630431
+s21415
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/PkgInfo
+t1278630430
+s8
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/ResourceRules.plist
+t1278630430
+s485
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Window.png
+t1278630431
+s6331
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/carbon.jpg
+t1278630430
+s72014
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/eMail.png
+t1278630432
+s28852
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision
+t1278630434
+s7060
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/plusicon.png
+t1278630431
+s43402
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/twitter copy.png
+t1278630431
+s10406
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent
+t1278630434
+s421
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/Info.o
+t1278630433
+s34552
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter
+t1278630434
+s19344
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter.LinkFileList
+c000000004C365A1E000000000000025F
+t1278630430
+s607
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterAppDelegate.o
+t1278630433
+s47852
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterViewController.o
+t1278630433
+s39524
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/main.o
+t1278630433
+s6636
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/Info.o
+t1278630434
+s34560
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter
+t1278630434
+s19344
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter.LinkFileList
+c000000004C365A1E000000000000025F
+t1278630430
+s607
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterAppDelegate.o
+t1278630434
+s47856
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterViewController.o
+t1278630434
+s39536
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/main.o
+t1278630434
+s6616
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/eMail.png
+c000000004B6A5D2A0000000000006DEB
+t1265261866
+s28139
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m
+c000000004C21470C0000000000000185
+t1277249292
+s389
+i<UIKit/UIKit.h>
+i"MiCounterAppDelegate.h"
+
+N/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/twitter copy.png
+c000000004C2169560000000000002708
+t1277258070
+s9992
+
+N/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision
+c000000004C3656600000000000001B94
+t1278629472
+s7060
+
+N/var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch.gch
+t1278354449
+s9631280
+
+N/var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch.gch
+t1278354449
+s10090032
+
+NMiCounter-Info.plist
+c000000004C365761000000000000037B
+t1278629729
+s891
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300323230#300323230#0(0"0(0#1#0"8618533344#0"0#
+
+CCodeSign "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+s300323234.812269
+e300323238.374482
+r1
+xCodeSign
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app
+lSLF07#2@50"CodeSign build/Distribution-iphoneos/MiCounter.app300323234#300323238#0(0"0(0#0#96"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app8616016480#741"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: deana maurer" "--resource-rules=/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/ResourceRules.plist" --entitlements "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/Info.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300323233.236687
+e300323233.323594
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/Info.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m300323233#300323233#0(0"0(0#0#69"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m8613332032#2074"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv6" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/Info.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterAppDelegate.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300323232.102510
+e300323233.236569
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterAppDelegate.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m300323232#300323233#0(0"0(0#0#85"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m8618390592#2106"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv6" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterAppDelegate.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterViewController.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300323233.229970
+e300323233.364479
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterViewController.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m300323233#300323233#0(0"0(0#0#88"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m8615576000#2112"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv6" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounterViewController.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/main.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s300323232.101414
+e300323233.229833
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/main.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m300323232#300323233#0(0"0(0#0#61"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m8618712384#2066"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv6" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/Info.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300323234.431377
+e300323234.508139
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/Info.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m300323234#300323234#0(0"0(0#0#69"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m8613778464#2074"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv7" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/Info.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterAppDelegate.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300323234.141217
+e300323234.431269
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterAppDelegate.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m300323234#300323234#0(0"0(0#0#85"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m8618521728#2106"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv7" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterAppDelegate.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterAppDelegate.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterViewController.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300323234.407308
+e300323234.519734
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterViewController.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m300323234#300323234#0(0"0(0#0#88"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m8615875008#2112"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv7" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/MiCounterViewController.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounterViewController.o"0#
+
+CCompileC build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/main.o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s300323233.323704
+e300323234.407207
+r1
+xCompileC
+xbuild/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/main.o
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m300323233#300323234#0(0"0(0#0#61"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m8618762528#2066"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-generated-files.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-own-target-headers.hmap" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-all-target-headers.hmap" -iquote "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter-project-headers.hmap" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/include" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources/armv7" "-I/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/main.m" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib"
+s300323231.320975
+e300323231.927566
+r1
+xCompileXIB
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib
+lSLF07#2@27"CompileXIB Classes/Info.xib300323231#300323231#0(0"0(0#0#71"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib8612680224#601"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.nib" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Classes/Info.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib"
+s300323230.401167
+e300323230.821398
+r1
+xCompileXIB
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300323230#300323230#0(0"0(0#0#69"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib8613491904#605"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MainWindow.nib" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib"
+s300323230.401893
+e300323231.044326
+r1
+xCompileXIB
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib
+lSLF07#2@38"CompileXIB MiCounterViewController.xib300323230#300323231#0(0"0(0#0#82"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib8612920864#631"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounterViewController.nib" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounterViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Button.png" Button.png
+s300323231.788762
+e300323231.827979
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Button.png
+xButton.png
+lSLF07#2@75"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/Button.png Button.png300323231#300323231#0(0"0(0#0#65"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Button.png8616394400#623"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Button.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Button.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Default.png" Resources/Default.png
+s300323230.822212
+e300323231.165854
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Default.png
+xResources/Default.png
+lSLF07#2@87"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/Default.png Resources/Default.png300323230#300323231#0(0"0(0#0#76"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Default.png8616789088#635"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Default.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Default.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Icon.png" Resources/Icon.png
+s300323231.044429
+e300323231.066117
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Icon.png
+xResources/Icon.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@81"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/Icon.png Resources/Icon.png300323231#300323231#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#73"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Icon.png8615748320#629"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Icon.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Icon.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Minus button.png" "Resources/Minus button.png"
+s300323231.066214
+e300323231.320879
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Minus button.png
+xResources/Minus button.png
+lSLF07#2@101"CopyPNGFile "build/Distribution-iphoneos/MiCounter.app/Minus button.png" "Resources/Minus button.png"300323231#300323231#0(0"0(0#0#81"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Minus button.png8615232096#645"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/Minus button.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Minus button.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Window.png" Window.png
+s300323231.725477
+e300323231.788663
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Window.png
+xWindow.png
+lSLF07#2@75"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/Window.png Window.png300323231#300323231#0(0"0(0#0#65"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Window.png8613893952#623"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Window.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Window.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/eMail.png" eMail.png
+s300323231.828078
+e300323232.101187
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/eMail.png
+xeMail.png
+lSLF07#2@73"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/eMail.png eMail.png300323231#300323232#0(0"0(0#0#64"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/eMail.png8615281824#621"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/eMail.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/eMail.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/plusicon.png" Resources/plusicon.png
+s300323231.165949
+e300323231.725377
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/plusicon.png
+xResources/plusicon.png
+lSLF07#2@89"CopyPNGFile build/Distribution-iphoneos/MiCounter.app/plusicon.png Resources/plusicon.png300323231#300323231#0(0"0(0#0#77"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/plusicon.png8613441696#637"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/plusicon.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/plusicon.png"0#
+
+CCopyPNGFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/twitter copy.png" "twitter copy.png"
+s300323231.927750
+e300323231.972053
+r1
+xCopyPNGFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/twitter copy.png
+xtwitter copy.png
+lSLF07#2@91"CopyPNGFile "build/Distribution-iphoneos/MiCounter.app/twitter copy.png" "twitter copy.png"300323231#300323231#0(0"0(0#0#71"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/twitter copy.png8604258528#635"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/twitter copy.png" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/twitter copy.png"0#
+
+CCpResource build/Distribution-iphoneos/MiCounter.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s300323230.392755
+e300323230.401079
+r1
+xCpResource
+xbuild/Distribution-iphoneos/MiCounter.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist300323230#300323230#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8615466400#546"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"0#
+
+CCpResource build/Distribution-iphoneos/MiCounter.app/carbon.jpg Resources/carbon.jpg
+s300323230.821491
+e300323230.841859
+r1
+xCpResource
+xbuild/Distribution-iphoneos/MiCounter.app/carbon.jpg
+xResources/carbon.jpg
+lSLF07#2@25"Copy Resources/carbon.jpg300323230#300323230#0(0"0(0#0#75"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/carbon.jpg8617053600#534"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/Resources/carbon.jpg" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"0#
+
+CCreateUniversalBinary "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter" normal "armv6 armv7"
+s300323234.633913
+e300323234.686455
+r1
+xCreateUniversalBinary
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter
+xnormal
+xarmv6 armv7
+lSLF07#2@94"CreateUniversalBinary build/Distribution-iphoneos/MiCounter.app/MiCounter normal "armv6 armv7"300323234#300323234#0(0"0(0#0#66"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/armv6 armv78618535712#627"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter" -output "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter"0#
+
+CGenerateDSYMFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app.dSYM" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter"
+s300323234.686561
+e300323234.783193
+r1
+xGenerateDSYMFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app.dSYM
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter
+lSLF07#2@115"GenerateDSYMFile build/Distribution-iphoneos/MiCounter.app.dSYM build/Distribution-iphoneos/MiCounter.app/MiCounter300323234#300323234#0(0"0(0#0#106"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter8616297440#436"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/MiCounter" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app.dSYM"0#
+
+CLd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter" normal armv6
+s300323233.364577
+e300323234.140932
+r1
+xLd
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter
+xnormal
+xarmv6
+lSLF07#2@150"Link /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter300323233#300323234#0(0"0(0#0#0"8616197472#1004"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" -filelist "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv6/MiCounter"0#
+
+CLd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter" normal armv7
+s300323234.519829
+e300323234.633805
+r1
+xLd
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter
+xnormal
+xarmv7
+lSLF07#2@150"Link /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter300323234#300323234#0(0"0(0#0#0"8615437440#1004"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" "-F/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos" -filelist "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/Objects-normal/armv7/MiCounter"0#
+
+CProcessInfoPlistFile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.plist" MiCounter-Info.plist
+s300323230.393861
+e300323230.397539
+r1
+xProcessInfoPlistFile
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.plist
+xMiCounter-Info.plist
+lSLF07#2@28"Process MiCounter-Info.plist300323230#300323230#0(0"0(0#0#75"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/MiCounter-Info.plist8615191712#663"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MiCounter-Info.plist -genpkginfo "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/ResourceRules.plist" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/Info.plist"0#
+
+CProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-edzddmhnsyeebegsgrtpqyntomki/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/4x/4xRqFW6ZFGWlu+VopRzZm++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/MiCounter_Prefix-eqohlbhveikklogrxfotrwrkzxhv/MiCounter_Prefix.pch.gch MiCounter_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision" "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision"
+s300323234.783307
+e300323234.784569
+r1
+xProcessProductPackaging
+x/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision" build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision300323234#300323234#0(0"0(0#0#121"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision8618831296#468"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Derek/Library/MobileDevice/Provisioning Profiles/0ED74B1C-00D1-4044-98FF-3F2C4CA6555E.mobileprovision" -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent"
+s300323234.787918
+e300323234.812146
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent
+lSLF07#2@188"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent300323234#300323234#0(0"0(0#0#130"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent8616935712#481"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/MiCounter.build/Distribution-iphoneos/MiCounter.build/MiCounter.xcent"0#
+
+CTouch "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+s300323234.784635
+e300323234.787833
+r1
+xTouch
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app
+lSLF07#2@102"Touch /Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app300323234#300323234#0(0"0(0#0#0"8618467680#309"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"0#
+
+CValidate "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"
+s300323238.374609
+e300323238.863850
+r1
+xValidate
+x/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app
+lSLF07#2@50"Validate build/Distribution-iphoneos/MiCounter.app300323238#300323238#0(0"0(0#0#96"/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app8618413792#418"    cd "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/Derek/Dev/iPhone/Sample Code/Practice/MiCounter/build/Distribution-iphoneos/MiCounter.app"0#
+
